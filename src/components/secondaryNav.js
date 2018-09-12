@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "gatsby-link"
 
 export default ({ ...props }) => {
     return(
@@ -9,7 +10,11 @@ export default ({ ...props }) => {
                 props.navItems.map((item, index) => {
                     return (
                         <li className="willow-secondary-nav__item" key={index}>
-                            <a className={"willow-secondary-nav__link" + (props.page === item.url ? " willow-secondary-nav__link--active" : "")} href={item.url} id={item.navigationId}>{item.title}</a>
+                            <Link 
+                                to={item.url} 
+                                className={(props.page === item.url ? "willow-secondary-nav__link willow-secondary-nav__link--active" : "willow-secondary-nav__link")}
+                                >{item.title}
+                            </Link>
                         </li>
                     )
                 })
