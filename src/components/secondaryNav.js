@@ -8,15 +8,17 @@ export default ({ ...props }) => {
             <ul className="willow-secondary-nav__list">
             {
                 props.navItems.map((item, index) => {
-                    return (
-                        <li className="willow-secondary-nav__item" key={index}>
-                            <Link 
-                                to={item.url} 
-                                className={(props.page === item.url ? "willow-secondary-nav__link willow-secondary-nav__link--active" : "willow-secondary-nav__link")}
-                                >{item.title}
-                            </Link>
-                        </li>
-                    )
+                    if(item.url) {
+                        return (
+                            <li className="willow-secondary-nav__item" key={index}>
+                                <Link 
+                                    to={item.url} 
+                                    className={(props.page === item.url ? "willow-secondary-nav__link willow-secondary-nav__link--active" : "willow-secondary-nav__link")}
+                                    >{item.title}
+                                </Link>
+                            </li>
+                        )
+                    }
                 })
             }
             </ul>

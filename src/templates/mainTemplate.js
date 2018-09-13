@@ -9,7 +9,11 @@ export default ({ data }) => {
             <h1>{docs.frontmatter.title}</h1>
             <section dangerouslySetInnerHTML={{ __html: docs.html }} />
             <section>{docs.frontmatter.instructions}</section>
-            <Overview overview={docs.frontmatter.overview} />
+            {
+                docs.frontmatter.overview ? 
+                    <Overview overview={docs.frontmatter.overview} />
+                : null
+            }
 
             {/* I don't like these class names - secondary-content and extra-content */}
             {

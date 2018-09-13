@@ -2,7 +2,6 @@
 # Required
 title: Persona
 url: /persona/
-navigationId: persona
 
 overview: 
 - heading: Investment

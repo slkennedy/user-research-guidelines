@@ -2,7 +2,6 @@
 #Required 
 title: Participatory Design
 url: /participatory-design/
-navigationId: participatoryDesign
 
 overview: 
 - heading: Investment

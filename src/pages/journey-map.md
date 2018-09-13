@@ -2,7 +2,6 @@
 # Required
 title: Journey Map
 url: /journey-map/
-navigationId: journeyMap
 
 overview: 
 - heading: Investment

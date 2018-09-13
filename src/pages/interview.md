@@ -2,7 +2,6 @@
 # Required
 title: Interview
 url: /interview/
-navigationId: interview
 
 overview: 
 - heading: Investment

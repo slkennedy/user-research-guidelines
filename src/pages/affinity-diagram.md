@@ -2,7 +2,6 @@
 # Required
 title: Affinity Diagram
 url: /affinity-diagram/
-navigationId: affinityDiagram
 
 overview:
 - heading: Investment

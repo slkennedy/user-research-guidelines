@@ -2,7 +2,6 @@
 # Required
 title: A/B Test
 url: /ab-test/
-navigationId: abTest
 
 overview:
 - heading: Investment

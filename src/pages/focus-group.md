@@ -2,7 +2,6 @@
 # Required
 title: Focus Group
 url: /focus-group/
-navigationId: focusGroup
 
 overview: 
 - heading: Investment

@@ -2,7 +2,6 @@
 # Required
 title: Card Sort
 url: /card-sort/
-navigationId: cardSort
 
 overview: 
 - heading: Investment

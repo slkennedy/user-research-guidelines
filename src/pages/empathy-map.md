@@ -2,7 +2,6 @@
 # Required
 title: Empathy Map
 url: /empathy-map/
-navigationId: empathyMap
 
 overview: 
 - heading: Investment
