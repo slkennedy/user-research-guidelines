@@ -1,7 +1,7 @@
 ---
 # Required
 title: Empathy Map
-url: /user-research-guidelines/empathy-map/
+url: /empathy-map/
 
 overview: 
 - heading: Investment

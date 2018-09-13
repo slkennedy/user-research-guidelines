@@ -1,7 +1,7 @@
 ---
 # Required
 title: Affinity Diagram
-url: /user-research-guidelines/affinity-diagram/
+url: /affinity-diagram/
 
 overview:
 - heading: Investment

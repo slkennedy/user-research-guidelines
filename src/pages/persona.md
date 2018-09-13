@@ -1,7 +1,7 @@
 ---
 # Required
 title: Persona
-url: /user-research-guidelines/persona/
+url: /persona/
 
 overview: 
 - heading: Investment

@@ -9,6 +9,11 @@ export default ({ ...props }) => {
             {
                 props.navItems.map((item, index) => {
                     if(item.url) {
+                        console.log(props.page)
+                        console.log(item.url)
+                        console.log(props.page === item.url)
+                        console.log((props.page === item.url ? "willow-secondary-nav__link willow-secondary-nav__link--active" : "willow-secondary-nav__link"))
+                        
                         return (
                             <li className="willow-secondary-nav__item" key={index}>
                                 <Link 

@@ -1,7 +1,7 @@
 ---
 # Required
 title: Focus Group
-url: /user-research-guidelines/focus-group/
+url: /focus-group/
 
 overview: 
 - heading: Investment

@@ -1,7 +1,7 @@
 ---
 #Required 
 title: Participatory Design
-url: /user-research-guidelines/participatory-design/
+url: /participatory-design/
 
 overview: 
 - heading: Investment

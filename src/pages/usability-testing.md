@@ -1,7 +1,7 @@
 ---
 # Required
 title: Usability Testing
-url: /user-research-guidelines/usability-testing/
+url: /usability-testing/
 
 overview: 
 - heading: Investment

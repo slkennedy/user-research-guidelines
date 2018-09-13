@@ -1,7 +1,7 @@
 ---
 # Required
 title: Interview
-url: /user-research-guidelines/interview/
+url: /interview/
 
 overview: 
 - heading: Investment

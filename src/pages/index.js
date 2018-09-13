@@ -1,22 +1,72 @@
 import React from "react"
+import WillowSecondaryNav from "../components/secondaryNav"
 
-export default () => {
+export default ({ data }) => {
+    const docs = data.markdownRemark;
+    const page = data.markdownRemark.fields.slug;
+    const navData = data.allMarkdownRemark.edges;
+
+    const navDataArray = Object.keys(navData)
+    let navItems = []
+    
+    navDataArray.map((key) => {            
+        navItems.push(navData[key].node.frontmatter)
+        return(navItems)
+    })
+
     return (
         <main className="willow-page-content flex-grow" id="mainContent">
             <div className="container-fluid">
-                <h1>User Research Guidelines</h1>
-                <h2>Introduction</h2>
-                <p>All teams designing and developing products desire a better understanding of the users that they’re ultimately creating the product to serve. With the multitude of options available for learning about a particular set of users, determining the methods that should be employed to gain that understanding can be challenging.</p>
-                <p>Teams are also interested in maximizing the value of their time, and time spent on user research could alternatively be spent on designing or building instead. The following guidelines provide context for some of the most commonly used user research methods employed by design teams and user experience professionals around the world. The goal of this is to convince the reader — or help the reader convince their stakeholders — that the cost of conducting user research far outweighs the potential costs of not doing so.</p>
-                <h2>Answers to common questions</h2>
-                <h3>What do you mean by user experience?</h3>
-                <p>“User experience” (often abbreviated as uX) refers to the impressions and emotions created while a person interacts with a system. In this context, a “system” typically refers to a website or software application, although the principles of uX can be extrapolated to interaction with nearly any digital or physical product.</p>
-                <h3>What do you mean by discovery?</h3>
-                <p>“Discovery” is an umbrella term that includes essentially any research methods or tactics that focus on understanding user behaviors, needs, preferences, or motivations through direct observation, surveying, or feedback gathering, including the documentation and analysis of results.</p>
-                <p>Discovery activities most often take place at the beginning of a project (sometimes referred to as the “discovery Phase”), but they can be conducted any time during a project’s lifecycle.</p>
-                <h3>What are the typical roles within UX teams?</h3>
-                <p>No two teams are truly identical, and many UX teams operate with more/fewer/di erent roles. The most common roles you’ll  nd within a typical UX team include:</p>
+                <div className="row">
+                    <div className="col-md-3">
+                        <WillowSecondaryNav 
+                            navItems={ navItems }
+                            page={ page }
+                        />
+                    </div>
+                    <div className="col-md-9">
+                        <h1>{docs.frontmatter.title}</h1>
+                        <section dangerouslySetInnerHTML={{ __html: docs.html }} />
+                    </div>
+                </div>
             </div>
         </main>
     )
 }
+
+export const query = graphql`
+    query MainIndexQuery {
+        markdownRemark {
+            html
+            frontmatter {
+                title
+                overview {
+                    heading
+                    amount
+                    description
+                }
+                resources {
+                    text
+                    url
+                }
+                relatedMethods {
+                    text
+                    url
+                }
+            }
+            fields {
+                slug
+            }
+        }
+        allMarkdownRemark {
+            edges {
+                node {
+                    frontmatter {
+                        title
+                        url
+                    }
+                }
+            }
+        }
+    }
+`

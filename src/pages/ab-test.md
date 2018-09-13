@@ -1,7 +1,7 @@
 ---
 # Required
 title: A/B Test
-url: /user-research-guidelines/ab-test/
+url: /ab-test/
 
 overview:
 - heading: Investment

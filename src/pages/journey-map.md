@@ -1,7 +1,7 @@
 ---
 # Required
 title: Journey Map
-url: /user-research-guidelines/journey-map/
+url: /journey-map/
 
 overview: 
 - heading: Investment
