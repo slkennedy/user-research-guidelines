@@ -12,6 +12,10 @@
       "path---empathy-map-2236ffaf193860a57006.js",
       "path---empathy-map-2236ffaf193860a57006.js.map"
     ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-11cc651ae982c2adf412.js",
+      "component---src-pages-index-js-11cc651ae982c2adf412.js.map"
+    ],
     "path---participatory-design": [
       "path---participatory-design-9aa7c727a0fbfb878a99.js",
       "path---participatory-design-9aa7c727a0fbfb878a99.js.map"
@@ -32,10 +36,6 @@
       "path---card-sort-f4c82dc3b57cfe992195.js",
       "path---card-sort-f4c82dc3b57cfe992195.js.map"
     ],
-    "component---src-pages-oldindex-js": [
-      "component---src-pages-oldindex-js-f24e1490da53a030716b.js",
-      "component---src-pages-oldindex-js-f24e1490da53a030716b.js.map"
-    ],
     "path---affinity-diagram": [
       "path---affinity-diagram-9e8ce44a229a2b4069ca.js",
       "path---affinity-diagram-9e8ce44a229a2b4069ca.js.map"
@@ -52,6 +52,10 @@
       "path---user-research-guidelines-1708cf03c11c85b51134.js",
       "path---user-research-guidelines-1708cf03c11c85b51134.js.map"
     ],
+    "path---index": [
+      "path---index-e28abaef92c2a824e05a.js",
+      "path---index-e28abaef92c2a824e05a.js.map"
+    ],
     "commons": [
       "commons-0cc54ac1faa73c3ff608.js",
       "commons-0cc54ac1faa73c3ff608.js.map"
@@ -60,17 +64,13 @@
       "path---focus-group-0f08761d2bbb9c798a0e.js",
       "path---focus-group-0f08761d2bbb9c798a0e.js.map"
     ],
-    "path---oldindex": [
-      "path---oldindex-a0e39f21c11f6a62c5ab.js",
-      "path---oldindex-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "path---persona": [
       "path---persona-8ee7ef4408f77759f246.js",
       "path---persona-8ee7ef4408f77759f246.js.map"
     ],
     "app": [
-      "app-b3e0e987ea1133975381.js",
-      "app-b3e0e987ea1133975381.js.map"
+      "app-ac2bb4af2553f4828534.js",
+      "app-ac2bb4af2553f4828534.js.map"
     ]
   }
 }
