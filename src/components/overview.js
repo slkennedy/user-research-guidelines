@@ -4,14 +4,12 @@ const createScore = (count) => {
     let score = []
     let diff = 5 - count; //3
     
-    for(let i = 0; i < count; i++) {
-        score.push(<span className="overview__score overview__score--filled"></span>)
+    for(let i = 0; i < 5; i++) {
+        score.push(<span 
+                    className={((i <= count) ? "overview__score overview__score--filled" : "overview__score")}
+                    key={i}></span>)
     }
     
-    for(let i = 0; i < diff; i++) {
-        score.push(<span className="overview__score"></span>)
-    }
-
     return score;
 }
 
