@@ -21,8 +21,8 @@
       "path---participatory-design-407b0f38d55b6b57bacd.js.map"
     ],
     "path---": [
-      "path----297eb2e46c6e30b1475d.js",
-      "path----297eb2e46c6e30b1475d.js.map"
+      "path----e5b166671be98628fe41.js",
+      "path----e5b166671be98628fe41.js.map"
     ],
     "path---ab-test": [
       "path---ab-test-677de8cf3ac26aa5d937.js",
@@ -41,12 +41,16 @@
       "path---affinity-diagram-1430ed63e5626e7d586e.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-23975c8fcf1a6287cc99.js",
-      "component---src-layouts-index-js-23975c8fcf1a6287cc99.js.map"
+      "component---src-layouts-index-js-8dd084c690b9c059cabf.js",
+      "component---src-layouts-index-js-8dd084c690b9c059cabf.js.map"
     ],
     "component---src-templates-main-template-js": [
-      "component---src-templates-main-template-js-dac3cc6e1fe7b46fbc16.js",
-      "component---src-templates-main-template-js-dac3cc6e1fe7b46fbc16.js.map"
+      "component---src-templates-main-template-js-0f3cee913be188b661e8.js",
+      "component---src-templates-main-template-js-0f3cee913be188b661e8.js.map"
+    ],
+    "path---user-research-guidelines": [
+      "path---user-research-guidelines-d5a1bf33c1c4f5fb6bda.js",
+      "path---user-research-guidelines-d5a1bf33c1c4f5fb6bda.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -65,8 +69,8 @@
       "path---persona-35c3ae8d298ba31bdc53.js.map"
     ],
     "app": [
-      "app-6f1dd3129104b2227deb.js",
-      "app-6f1dd3129104b2227deb.js.map"
+      "app-6af7b65475e620760571.js",
+      "app-6af7b65475e620760571.js.map"
     ]
   }
 }
