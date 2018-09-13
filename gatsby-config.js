@@ -10,5 +10,4 @@ module.exports = {
         },
         `gatsby-transformer-remark`
     ],
-    pathPrefix: "/user-research-guidelines"
 }
