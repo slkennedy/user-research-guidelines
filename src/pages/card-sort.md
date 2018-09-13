@@ -1,7 +1,7 @@
 ---
 # Required
 title: Card Sort
-url: /card-sort/
+url: /user-research-guidelines/card-sort/
 
 overview: 
 - heading: Investment
