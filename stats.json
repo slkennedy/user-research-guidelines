@@ -1,72 +1,72 @@
 {
   "assetsByChunkName": {
     "path---usability-testing": [
-      "path---usability-testing-07a585725bbcea0c5b11.js",
-      "path---usability-testing-07a585725bbcea0c5b11.js.map"
+      "path---usability-testing-92e3976b5e93e801d982.js",
+      "path---usability-testing-92e3976b5e93e801d982.js.map"
     ],
     "path---interview": [
-      "path---interview-00e7bb3a5529998c0860.js",
-      "path---interview-00e7bb3a5529998c0860.js.map"
+      "path---interview-61670b4d8e34123a58d8.js",
+      "path---interview-61670b4d8e34123a58d8.js.map"
     ],
     "path---empathy-map": [
-      "path---empathy-map-da5ec8a84cfd68bbf501.js",
-      "path---empathy-map-da5ec8a84cfd68bbf501.js.map"
+      "path---empathy-map-2236ffaf193860a57006.js",
+      "path---empathy-map-2236ffaf193860a57006.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-a04d375e45320a677601.js",
       "component---src-pages-index-js-a04d375e45320a677601.js.map"
     ],
     "path---participatory-design": [
-      "path---participatory-design-407b0f38d55b6b57bacd.js",
-      "path---participatory-design-407b0f38d55b6b57bacd.js.map"
+      "path---participatory-design-9aa7c727a0fbfb878a99.js",
+      "path---participatory-design-9aa7c727a0fbfb878a99.js.map"
     ],
     "path---": [
       "path----069045e33518db3a6729.js",
       "path----069045e33518db3a6729.js.map"
     ],
     "path---ab-test": [
-      "path---ab-test-677de8cf3ac26aa5d937.js",
-      "path---ab-test-677de8cf3ac26aa5d937.js.map"
+      "path---ab-test-77814bacf47af606dc76.js",
+      "path---ab-test-77814bacf47af606dc76.js.map"
     ],
     "path---journey-map": [
-      "path---journey-map-446529dc20a700aace5d.js",
-      "path---journey-map-446529dc20a700aace5d.js.map"
+      "path---journey-map-449566446d733b2ca73e.js",
+      "path---journey-map-449566446d733b2ca73e.js.map"
     ],
     "path---card-sort": [
-      "path---card-sort-658c57807e27c6a2da4a.js",
-      "path---card-sort-658c57807e27c6a2da4a.js.map"
+      "path---card-sort-f4c82dc3b57cfe992195.js",
+      "path---card-sort-f4c82dc3b57cfe992195.js.map"
     ],
     "path---affinity-diagram": [
-      "path---affinity-diagram-1430ed63e5626e7d586e.js",
-      "path---affinity-diagram-1430ed63e5626e7d586e.js.map"
+      "path---affinity-diagram-9e8ce44a229a2b4069ca.js",
+      "path---affinity-diagram-9e8ce44a229a2b4069ca.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8776468f357b0b64a04f.js",
-      "component---src-layouts-index-js-8776468f357b0b64a04f.js.map"
+      "component---src-layouts-index-js-0a8d3ea679b92640a7aa.js",
+      "component---src-layouts-index-js-0a8d3ea679b92640a7aa.js.map"
     ],
     "component---src-templates-main-template-js": [
-      "component---src-templates-main-template-js-0f3cee913be188b661e8.js",
-      "component---src-templates-main-template-js-0f3cee913be188b661e8.js.map"
+      "component---src-templates-main-template-js-fab9638b126475d505f7.js",
+      "component---src-templates-main-template-js-fab9638b126475d505f7.js.map"
     ],
     "path---user-research-guidelines": [
-      "path---user-research-guidelines-d5a1bf33c1c4f5fb6bda.js",
-      "path---user-research-guidelines-d5a1bf33c1c4f5fb6bda.js.map"
+      "path---user-research-guidelines-1708cf03c11c85b51134.js",
+      "path---user-research-guidelines-1708cf03c11c85b51134.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-719fabe2c9bb6ffb3304.js",
-      "commons-719fabe2c9bb6ffb3304.js.map"
+      "commons-0cc54ac1faa73c3ff608.js",
+      "commons-0cc54ac1faa73c3ff608.js.map"
     ],
     "path---focus-group": [
-      "path---focus-group-452b3fcacd961dd8df34.js",
-      "path---focus-group-452b3fcacd961dd8df34.js.map"
+      "path---focus-group-0f08761d2bbb9c798a0e.js",
+      "path---focus-group-0f08761d2bbb9c798a0e.js.map"
     ],
     "path---persona": [
-      "path---persona-35c3ae8d298ba31bdc53.js",
-      "path---persona-35c3ae8d298ba31bdc53.js.map"
+      "path---persona-8ee7ef4408f77759f246.js",
+      "path---persona-8ee7ef4408f77759f246.js.map"
     ],
     "app": [
       "app-ac2bb4af2553f4828534.js",
