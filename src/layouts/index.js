@@ -24,19 +24,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-
-export const query = graphql`
-    query NavQuery {
-        allMarkdownRemark {
-            edges {
-                node {
-                    frontmatter {
-                        title
-                        url
-                    }
-                }
-            }
-        }
-    }
-`

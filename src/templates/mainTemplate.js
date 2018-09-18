@@ -2,11 +2,14 @@ import React, { Fragment } from "react"
 
 import Overview from "../components/overview"
 import WillowSecondaryNav from "../components/secondaryNav"
+import LinkList from "../components/linkList"
 
 export default ({ data }) => {
     const docs = data.markdownRemark;
     const page = data.markdownRemark.fields.slug;
     const navData = data.allMarkdownRemark.edges;
+    const resourceLinks = data.markdownRemark.frontmatter.resources;
+    const relatedMethods = data.markdownRemark.frontmatter.relatedMethods;
 
     const navDataArray = Object.keys(navData)
     let navItems = []
@@ -38,33 +41,21 @@ export default ({ data }) => {
 
                         {/* I don't like these class names - secondary-content and extra-content */}
                         {
-                            docs.frontmatter.resources ? 
-                                <section className="secondary-content">
-                                    <h2 className="secondary-content__heading">Resources:</h2>
-                                    {
-                                        docs.frontmatter.resources.map((item, index) => {
-                                            return (
-                                                <a className="secondary-content__link" href={item.url} key={index} target="_blank">{item.text}</a>
-                                            )
-                                        })
-                                    }
-                                </section>
+                            resourceLinks ? 
+                                <LinkList 
+                                    heading="Resources"
+                                    links={resourceLinks} 
+                                    externalLinks="true" />
                             : null
                         }
                         {
-                            docs.frontmatter.relatedMethods ? 
-                                <section className="extra-content">
-                                    <h2 className="extra-content__heading">Related Methods:</h2>
-                                    {
-                                        docs.frontmatter.relatedMethods.map((item, index) => {
-                                            return (
-                                                <a className="extra-content__link" href={item.url} key={index} target="_blank">{item.text}</a>
-                                            )
-                                        })
-                                    }
-                                </section>
+                            relatedMethods ? 
+                                <LinkList
+                                    heading="Related Methods" 
+                                    links={relatedMethods}
+                                    prefix="/user-research-guidelines" />
                             : null
-                        }                    
+                        }     
                     </div>
                 </div>
             </div>

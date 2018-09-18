@@ -36,7 +36,7 @@ export default ({ data }) => {
 
 export const query = graphql`
     query MainIndexQuery {
-        markdownRemark {
+        markdownRemark(fields: {slug: { eq: "/user-research-guidelines/" }}) {
             html
             frontmatter {
                 title

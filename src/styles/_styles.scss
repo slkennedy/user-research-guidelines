@@ -44,23 +44,37 @@ $text-style-heading-3: (
 
 @import "../../node_modules/@unumux/willow/styles";
 
-// Base Styles
-h2 {
-    color: $theme-primary;
+// Overrides
+// Bootstrap
+.container-fluid {
+    max-width: 1200px;
 }
 
-
-// Willow Overrides
+// Willow
 .willow-page-header__content {
     display: block;
 }
 
-.willow-secondary-nav__link--active {
-    border-color: $theme-primary;
+.willow-secondary-nav {
+    border: none;
+
+    &__heading {
+        background-color: transparent;
+        border-bottom: 3px solid $theme-primary;
+        color: $theme-text-primary;
+        padding: $space-inset-xs;
+    }
+    
+    &__link {
+        padding-left: $space-xs;
+    }
+    
+    &__link--active {
+        border-color: $theme-primary;
+    }
 }
 
-
-// Custom Component
+// Custom Components
 .overview {
     border-left: 10px solid $theme-primary;
     padding-left: $space;
@@ -94,9 +108,21 @@ h2 {
     }
 }
 
-.secondary-content,
-.extra-content {
+.secondary-content {
     &__link {
         display: block;
+    
+        &--external {
+            &:before {
+                background-image: url(../assets/icons/share.svg);
+                background-size: cover;
+                content: "";
+                display: inline-block;
+                height: 14px;
+                margin: $space-inline-s;
+                width: 14px;
+            }
+        }
     }
 }
+

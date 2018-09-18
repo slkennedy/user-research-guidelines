@@ -9,10 +9,10 @@ overview:
   description: Card sorting requires a bit of preparation. Preparing the cards takes more than just writing a list of topics on index cards, as you need to be strategic in determining what topics you decide to ask participants to sort.
 - heading: Validity
   amount: 4
-  description: While card sorts won’t usually provide results that are directly actionable, they do provide quantitative data that can be directly attributed to speci c participants. The results do not directly involve input from the facilitator, which removes bias.
+  description: While card sorts won’t usually provide results that are directly actionable, they do provide quantitative data that can be directly attributed to specific participants. The results do not directly involve input from the facilitator, which removes bias.
 - heading: Expertise
   amount: 1
-  description: determining the topics for the cards and categories and facilitating the exercise can be done by anyone on the design team. facilitating the exercise is easy and can be aided by online tools such as [Trello](https://trello.com).
+  description: determining the topics for the cards and categories and facilitating the exercise can be done by anyone on the design team. facilitating the exercise is easy and can be aided by online tools such as Trello.
 
 # Optional
 resources:
