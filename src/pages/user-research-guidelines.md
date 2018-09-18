@@ -12,17 +12,17 @@ Teams are also interested in maximizing the value of their time, and time spent 
 
 ### What do you mean by user experience?
 
-“User experience” (often abbreviated as uX) refers to the impressions and emotions created while a person interacts with a system. In this context, a “system” typically refers to a website or software application, although the principles of uX can be extrapolated to interaction with nearly any digital or physical product.
+“User experience” (often abbreviated as UX) refers to the impressions and emotions created while a person interacts with a system. In this context, a “system” typically refers to a website or software application, although the principles of UX can be extrapolated to interaction with nearly any digital or physical product.
 
 ### What do you mean by discovery?
 
 “Discovery” is an umbrella term that includes essentially any research methods or tactics that focus on understanding user behaviors, needs, preferences, or motivations through direct observation, surveying, or feedback gathering, including the documentation and analysis of results.
 
-Discovery activities most often take place at the beginning of a project (sometimes referred to as the “discovery Phase”), but they can be conducted any time during a project’s lifecycle.
+Discovery activities most often take place at the beginning of a project (sometimes referred to as the “discovery phase”), but they can be conducted any time during a project’s lifecycle.
 
 ### What are the typical roles within UX teams?
 
-No two teams are truly identical, and many UX teams operate with more/fewer/di erent roles. The most common roles you’ll find within a typical UX team include:
+No two teams are truly identical, and many UX teams operate with more/fewer/different roles. The most common roles you’ll find within a typical UX team include:
 
 - **UX / Visual Designer:** Focuses on typography, layout, color, graphics, visual effects, imagery, texture, mood.
 - **Information Architect (IA):** Focuses on tasks such as how to organize site content, how search should work, what labels to use on menus, etc.
