@@ -1,5 +1,6 @@
 ---
 title: User Research Guidelines
+publish: false
 ---
 
 ## Introduction
@@ -21,4 +22,8 @@ Discovery activities most often take place at the beginning of a project (someti
 
 ### What are the typical roles within UX teams?
 
-No two teams are truly identical, and many UX teams operate with more/fewer/di erent roles. The most common roles you’ll find within a typical UX team include: ...
+No two teams are truly identical, and many UX teams operate with more/fewer/di erent roles. The most common roles you’ll find within a typical UX team include:
+
+- **UX / Visual Designer:** Focuses on typography, layout, color, graphics, visual effects, imagery, texture, mood.
+- **Information Architect (IA):** Focuses on tasks such as how to organize site content, how search should work, what labels to use on menus, etc.
+- **Front-End Developer (FED):** Focuses on writing HTMl, CSS, and JavaScript code to implement functionality and visual design.

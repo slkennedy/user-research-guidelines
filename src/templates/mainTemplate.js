@@ -38,24 +38,28 @@ export default ({ data }) => {
                                 <Overview overview={docs.frontmatter.overview} />
                             : null
                         }
-
-                        {/* I don't like these class names - secondary-content and extra-content */}
                         {
-                            resourceLinks ? 
-                                <LinkList 
-                                    heading="Resources"
-                                    links={resourceLinks} 
-                                    externalLinks="true" />
+                            relatedMethods || resourceLinks ? 
+                                <div className="related-content">
+                                    {
+                                        relatedMethods ? 
+                                            <LinkList
+                                                heading="Related Methods" 
+                                                links={relatedMethods}
+                                                prefix="/user-research-guidelines" />
+                                        : null
+                                    }
+                                    {
+                                        resourceLinks ? 
+                                            <LinkList 
+                                                heading="Resources"
+                                                links={resourceLinks} 
+                                                externalLinks="true" />
+                                        : null
+                                    }
+                                </div>
                             : null
                         }
-                        {
-                            relatedMethods ? 
-                                <LinkList
-                                    heading="Related Methods" 
-                                    links={relatedMethods}
-                                    prefix="/user-research-guidelines" />
-                            : null
-                        }     
                     </div>
                 </div>
             </div>

@@ -27,11 +27,11 @@ resources:
 
 relatedMethods:
 - text: Interviews
-  url: /interviews/
+  url: /interview/
 - text: Empathy Mapping
   url: /empathy-map/
 - text: Affinity Diagrams
-  url: /affinity-diagrams/
+  url: /affinity-diagram/
 - text: Usability Testing
   url: /usability-testing/
 ---

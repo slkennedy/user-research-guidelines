@@ -21,7 +21,7 @@ relatedMethods:
 - text: Personas
   url: /persona/
 - text: Interviews
-  url: /interviews/
+  url: /interview/
 ---
 
 ## What is an affinity diagram?
