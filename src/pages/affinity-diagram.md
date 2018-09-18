@@ -9,10 +9,10 @@ overview:
   description: Once an interview is complete, documenting the key responses is quick and easy.
 - heading: Validity
   amount: 3
-  description: A nity diagrams can be somewhat subjective, as the creator makes determinations about what was important and how these items are grouped.
+  description: Affinity diagrams can be somewhat subjective, as the creator makes determinations about what was important and how these items are grouped.
 - heading: Expertise
   amount: 1
-  description: Creating an a nity diagram requires no special tools or methods and can be done by anyone on the team with access to recordings of the interviews.
+  description: Creating an affinity diagram requires no special tools or methods and can be done by anyone on the team with access to recordings of the interviews.
 
 # Optional
 relatedMethods:
@@ -26,7 +26,7 @@ relatedMethods:
 
 ## What is an affinity diagram?
 
-An affinity diagram is used to organize information into like groups/categories to identify common themes and patterns. The creation of a nity diagrams allows the team to quickly identify trends in the data to facilitate creating accurate business and user requirements.
+An affinity diagram is used to organize information into like groups/categories to identify common themes and patterns. The creation of affinity diagrams allows the team to quickly identify trends in the data to facilitate creating accurate business and user requirements.
 
 ## How to create an affinity diagram:
 
