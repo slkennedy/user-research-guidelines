@@ -12,8 +12,12 @@ $theme-primary-4: $color-blue-darker;
 $theme-action-primary: $color-blue;
 $theme-action-primary-2: $color-blue-dark;
 $theme-action-primary-3: $color-blue-darker;
+
+$list-style-type: disc;
+
 @import "../../node_modules/@unumux/theme-unum-default/styles";
 
+$grid-gutter-width: $space-l;
 
 $text-style-heading-1: ( 
     family: $font-family-primary, 
@@ -57,16 +61,21 @@ $text-style-heading-3: (
 
 .willow-secondary-nav {
     border: none;
+    margin: $space-stack;
 
     &__heading {
-        background-color: transparent;
-        border-bottom: 3px solid $theme-primary;
+        background-color: $theme-base;
         color: $theme-text-primary;
-        padding: $space-inset-xs;
+        padding: $space-inset-s;
     }
     
     &__link {
-        padding-left: $space-xs;
+        color: $theme-primary;
+        padding: $space-inset-s;
+        
+        &:visited {
+            color: $theme-primary;
+        }
     }
     
     &__link--active {
@@ -108,9 +117,54 @@ $text-style-heading-3: (
     }
 }
 
-.secondary-content {
-    &__link {
+.related-content {
+    background-color: $theme-base-2;
+    border-radius: $component-border-radius;
+    display: flex;
+    flex-wrap: wrap;
+    margin: $space-stack-xl;
+    padding: $space-inset-squish-l;
+}
+
+.link-list {
+    @include compact;
+    
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: $space-stack;
+
+    &:nth-of-type(1) {
+        margin: $space-inline;
+    }
+    
+    @media screen and (min-width: breakpoint(sm, $grid-breakpoints)) {
+        flex-basis: 20%;
+        margin: $space-inline-xl;
+
+        &:nth-of-type(2){
+            flex-basis: 60%;
+            margin: 0;
+        }
+    }
+
+    &__heading {
+        @include set-text-style($text-style-heading-3);
+
+        font-weight: 300;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__item {
         display: block;
+    }
+
+    &__link {
+        display: inline-block;
     
         &--external {
             &:before {

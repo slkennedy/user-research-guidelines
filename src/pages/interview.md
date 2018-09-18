@@ -19,7 +19,7 @@ relatedMethods:
 - text: Empathy Map
   url: /empathy-map/
 - text: Personas
-  url: /personas/
+  url: /persona/
 - text: Cart Sort
   url: /card-sort/
 ---

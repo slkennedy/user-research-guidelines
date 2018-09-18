@@ -17,7 +17,7 @@ overview:
 # Optional
 relatedMethods:
 - text: Usability Test
-  url: /usability-test/
+  url: /usability-testing/
 
 ---
 
