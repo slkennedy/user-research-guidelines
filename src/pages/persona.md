@@ -6,13 +6,13 @@ url: /persona/
 overview: 
 - heading: Investment
   amount: 4
-  description: Creation of persona documents is fairly quick. gathering a solid understanding of your end user is what takes time. Many other research methods can be utilized to gather information that ultimately ends up in a Persona.
+  description: Creation of persona documents is fairly quick. Gathering a solid understanding of your end user is what takes time. Many other research methods can be utilized to gather information that ultimately ends up in a persona.
 - heading: Validity
   amount: 4
   description: The usefulness of personas is directly tied to the methods used to create them. If based primarily on assumptions, they can be lacking compared to those created based on results pulled directly from interactions with users. When done correctly, personas are powerful tools that are critical to content strategy and design.
 - heading: Expertise
   amount: 2
-  description: Nearly anyone with a solid understanding of users’ activities, thoughts, and expectations can make a persona. unum’s persona generator makes persona creation even easier.
+  description: Nearly anyone with a solid understanding of users’ activities, thoughts, and expectations can make a persona. Unum’s Persona Generator makes persona creation even easier.
 
 # Optional
 resources:
@@ -53,7 +53,7 @@ First, identify and interview your target users with relevant questions regardin
 ## General persona questions you ask are:
 
 1. Tell me about your department and your role in it.
-2. describe a typical work day.
+2. Describe a typical work day.
 3. What activities take up most of your time?
 4. do you have any impediments that hamper you from getting the work you value completed?
 5. What would you say your goal is?
@@ -62,4 +62,4 @@ First, identify and interview your target users with relevant questions regardin
 8. What would you change about your job/the tools you use?
 9. What are the top 3 challenging or frustrating aspects of your job?
 10. What are your expectations around new projects?
-11.What are your metrics of success?
+11. What are your metrics of success?
