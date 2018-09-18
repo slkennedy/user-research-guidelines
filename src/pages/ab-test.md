@@ -21,13 +21,13 @@ relatedMethods:
 
 ---
 
-## What is an a/b test?
+## What is an A/B test?
 
 An A/B test is a method of comparing two versions of a webpage or app against each other to determine which one performs better. ab testing uses data and statistics to validate new design changes and improve conversion rates.
 
 A/B testing allows individuals, teams, and companies to make careful changes to their user experiences while collecting data on the results. This allows them to construct hypotheses and to better learn why certain elements of their experiences impact user behavior.
 
-## How to conduct an a/b test:
+## How to conduct an A/B test:
 
 A minimum of 20-25 users/interactions is recommended per iteration. The more the better!
 
