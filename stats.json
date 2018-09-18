@@ -1,44 +1,44 @@
 {
   "assetsByChunkName": {
     "path---usability-testing": [
-      "path---usability-testing-fdebaf7aa719963c595c.js",
-      "path---usability-testing-fdebaf7aa719963c595c.js.map"
+      "path---usability-testing-7c648d50cec8fcaeaf28.js",
+      "path---usability-testing-7c648d50cec8fcaeaf28.js.map"
     ],
     "path---interview": [
-      "path---interview-fcdb66cc999c4cb01f98.js",
-      "path---interview-fcdb66cc999c4cb01f98.js.map"
+      "path---interview-5d5b77d4f5aafd20d60e.js",
+      "path---interview-5d5b77d4f5aafd20d60e.js.map"
     ],
     "path---empathy-map": [
-      "path---empathy-map-ed125f900deb8f3a5f2b.js",
-      "path---empathy-map-ed125f900deb8f3a5f2b.js.map"
+      "path---empathy-map-f0a77fec9d8cf52fd448.js",
+      "path---empathy-map-f0a77fec9d8cf52fd448.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-927c3a60c65c43a7e26c.js",
-      "component---src-pages-index-js-927c3a60c65c43a7e26c.js.map"
+      "component---src-pages-index-js-e8117a3ba7e99bdb4943.js",
+      "component---src-pages-index-js-e8117a3ba7e99bdb4943.js.map"
     ],
     "path---participatory-design": [
-      "path---participatory-design-a40cf32910779148c98e.js",
-      "path---participatory-design-a40cf32910779148c98e.js.map"
+      "path---participatory-design-803844f82e1d7ef15d4b.js",
+      "path---participatory-design-803844f82e1d7ef15d4b.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---ab-test": [
-      "path---ab-test-2c9dd251d154e18715db.js",
-      "path---ab-test-2c9dd251d154e18715db.js.map"
+      "path---ab-test-b8e2b4bc76f09a9d37de.js",
+      "path---ab-test-b8e2b4bc76f09a9d37de.js.map"
     ],
     "path---journey-map": [
-      "path---journey-map-010a49e3de386551ea22.js",
-      "path---journey-map-010a49e3de386551ea22.js.map"
+      "path---journey-map-19287659bae19e95ba0f.js",
+      "path---journey-map-19287659bae19e95ba0f.js.map"
     ],
     "path---card-sort": [
-      "path---card-sort-dfa9b66a7be1cc5bfebf.js",
-      "path---card-sort-dfa9b66a7be1cc5bfebf.js.map"
+      "path---card-sort-3975d505a3c18ed60208.js",
+      "path---card-sort-3975d505a3c18ed60208.js.map"
     ],
     "path---affinity-diagram": [
-      "path---affinity-diagram-06ef165d29e52397b5c5.js",
-      "path---affinity-diagram-06ef165d29e52397b5c5.js.map"
+      "path---affinity-diagram-5f3e387e10782828822f.js",
+      "path---affinity-diagram-5f3e387e10782828822f.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-c7c2e53bf9b7ec57ee01.js",
@@ -48,29 +48,25 @@
       "component---src-templates-main-template-js-565eddb6bb8b25423112.js",
       "component---src-templates-main-template-js-565eddb6bb8b25423112.js.map"
     ],
-    "path---user-research-guidelines": [
-      "path---user-research-guidelines-3fcbe16a9ecbd5256eb7.js",
-      "path---user-research-guidelines-3fcbe16a9ecbd5256eb7.js.map"
-    ],
     "path---index": [
-      "path---index-c2d1718b45879043bb02.js",
-      "path---index-c2d1718b45879043bb02.js.map"
+      "path---index-1645701a6ff07bd61fb3.js",
+      "path---index-1645701a6ff07bd61fb3.js.map"
     ],
     "commons": [
       "commons-0cc54ac1faa73c3ff608.js",
       "commons-0cc54ac1faa73c3ff608.js.map"
     ],
     "path---focus-group": [
-      "path---focus-group-20c9ecea8e0c84d53918.js",
-      "path---focus-group-20c9ecea8e0c84d53918.js.map"
+      "path---focus-group-3c8891026263c5fbe14a.js",
+      "path---focus-group-3c8891026263c5fbe14a.js.map"
     ],
     "path---persona": [
-      "path---persona-e495068b0a92582c61b4.js",
-      "path---persona-e495068b0a92582c61b4.js.map"
+      "path---persona-e56eceb2ccf4468a9f4b.js",
+      "path---persona-e56eceb2ccf4468a9f4b.js.map"
     ],
     "app": [
-      "app-aa91f89c42431093c6cb.js",
-      "app-aa91f89c42431093c6cb.js.map"
+      "app-6f1dd3129104b2227deb.js",
+      "app-6f1dd3129104b2227deb.js.map"
     ]
   }
 }
