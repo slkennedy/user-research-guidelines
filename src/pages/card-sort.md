@@ -12,7 +12,7 @@ overview:
   description: While card sorts won’t usually provide results that are directly actionable, they do provide quantitative data that can be directly attributed to specific participants. The results do not directly involve input from the facilitator, which removes bias.
 - heading: Expertise
   amount: 1
-  description: determining the topics for the cards and categories and facilitating the exercise can be done by anyone on the design team. facilitating the exercise is easy and can be aided by online tools such as Trello.
+  description: Determining the topics for the cards and categories and facilitating the exercise can be done by anyone on the design team. Facilitating the exercise is easy and can be aided by online tools such as Trello.
 
 # Optional
 resources:
@@ -29,7 +29,7 @@ resources:
 
 ## What is a card sort?
 
-A card sort is a way to organize items into groups and  nd logical divisions. Card sorts are useful in developing navigation, content organization, or menu structure based on real user feedback. Card sorts can be performed when designing a new site or a new section of a site or when redesigning a site.
+A card sort is a way to organize items into groups and logical divisions. Card sorts are useful in developing navigation, content organization, or menu structure based on real user feedback. Card sorts can be performed when designing a new site or a new section of a site or when redesigning a site.
 
 **There are three types of card sorts:**
 
@@ -39,7 +39,7 @@ A card sort is a way to organize items into groups and  nd logical divisions. Ca
 
 ## How to prepare for a card sort:
 
-If you are performing card sorts in person, take a stack of index cards and write one topic per card. remember to be selective on the topics you are asking participants to organize. be sure to number the cards to keep track of them. If you are performing a closed cart sort, write your pre- de ned categories on index cards as well. Keep a stack of blank cards handy to use during the session.
+If you are performing card sorts in person, take a stack of index cards and write one topic per card. Remember to be selective on the topics you are asking participants to organize. Be sure to number the cards to keep track of them. If you are performing a closed cart sort, write your pre- de ned categories on index cards as well. Keep a stack of blank cards handy to use during the session.
 
 ## How to conduct an open card sort:
 
@@ -52,18 +52,18 @@ Ask participants to organize topics into groups that make sense to them. Then as
 
 ## How to conduct a closed card sort:
 
-Ask participants to organize topics into pre- de ned categories. Ask the participant to think out loud as they make decisions.
+Ask participants to organize topics into pre-determined categories. Ask the participant to think out loud as they make decisions.
 
 **You can conduct a closed card sort when:**
 
-- You want to see how people think information  ts within an established structure
+- You want to see how people think information fits within an established structure
 - Validating results of an open card sort
   
 ## How to conduct a reverse card sort / tree test:
 
-Participants are given tasks and asked to complete them by navigating a collection of cards. ask the participant to think out loud as they make decisions. Each card contains the names of subcategories related to a category, and the participant should  nd the card most relevant to the given task starting from the main card with the top-level categories.
+Participants are given tasks and asked to complete them by navigating a collection of cards. Ask the participant to think out loud as they make decisions. Each card contains the names of subcategories related to a category, and the participant should  find the card most relevant to the given task starting from the main card with the top-level categories.
 
-A reverse card sort validates the site  ow and organization of content and can be helpful in matching the navigation to users’ mental models.
+A reverse card sort validates the site flow and organization of content and can be helpful in matching the navigation to users’ mental models.
 
 **You can conduct a reverse card sort / tree test when:**
 
