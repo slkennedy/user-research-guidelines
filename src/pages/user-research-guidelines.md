@@ -26,4 +26,4 @@ No two teams are truly identical, and many UX teams operate with more/fewer/diff
 
 - **UX / Visual Designer:** Focuses on typography, layout, color, graphics, visual effects, imagery, texture, mood.
 - **Information Architect (IA):** Focuses on tasks such as how to organize site content, how search should work, what labels to use on menus, etc.
-- **Front-End Developer (FED):** Focuses on writing HTMl, CSS, and JavaScript code to implement functionality and visual design.
+- **Front-End Developer (FED):** Focuses on writing HTML, CSS, and JavaScript code to implement functionality and visual design.
