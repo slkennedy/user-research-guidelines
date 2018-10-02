@@ -19,7 +19,7 @@ export default ({ data }) => {
                     <div className="row">
                         <div className="col-md-3">
                             <WillowSecondaryNav 
-                                heading={ navData.menuName}
+                                heading={ navData.menuName }
                                 navItems={ navData.menuItems }
                                 page={ data.markdownRemark.fields.slug }
                             />

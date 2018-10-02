@@ -2,14 +2,12 @@ import React from "react"
 
 const createScore = (count) => {
     let score = []
-    
     for(let i = 0; i < 5; i++) {
         score.push(<span 
                     className={((i <= count) ? "overview__score overview__score--filled" : "overview__score")}
                     key={i}></span>)
     }
-    
-    return score;
+    return score
 }
 
 export default ({ ...props }) => {

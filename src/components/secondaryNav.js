@@ -3,10 +3,10 @@ import { Link } from "gatsby"
 
 export default ({ ...props }) => {
     let sortedNavItems = props.navItems.sort(function (a, b) {
-        if (a.name < b.name) return -1;
-        else if (a.name > b.name) return 1;
-        return 0;
-    });
+        if (a.name < b.name) return -1
+        else if (a.name > b.name) return 1
+        return 0
+    })
 
     return(
         <nav className="willow-secondary-nav" role="navigation" aria-label="secondary">

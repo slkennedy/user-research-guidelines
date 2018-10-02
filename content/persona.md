@@ -48,7 +48,7 @@ User Based Personas: These are created from interviewing a series of real people
 
 First, identify and interview your target users with relevant questions regarding your project. Then, analyze the results from your interviews and start mapping similarities.
 
-[Unum’s Persona Generator](persona.unumux.com) can help you quickly and easily create professional personas.
+[Unum’s Persona Generator](http://persona.unumux.com) can help you quickly and easily create professional personas.
 
 ## General persona questions you ask are:
 
