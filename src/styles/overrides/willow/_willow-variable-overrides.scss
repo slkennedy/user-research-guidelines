@@ -1,0 +1,26 @@
+$text-style-heading-1: ( 
+    family: $font-family-primary, 
+    desktop-size: 3.58318rem, 
+    desktop-line-height: line-height($font-size-4xl), 
+    mobile-size: 3.58318rem, 
+    mobile-line-height: line-height($font-size-3xl), 
+    weight: 500
+);
+
+$text-style-heading-2: ( 
+    family: $font-family-primary, 
+    desktop-size: 2.48832rem, 
+    desktop-line-height: line-height($font-size-2xl), 
+    mobile-size: 2.48832rem, 
+    mobile-line-height: line-height($font-size-xl), 
+    weight: 300
+);
+
+$text-style-heading-3: ( 
+    family: $font-family-primary, 
+    desktop-size: 2.0736rem, 
+    desktop-line-height: line-height($font-size-xl), 
+    mobile-size: 1.728rem, 
+    mobile-line-height: line-height($font-size-l), 
+    weight: 500
+);
