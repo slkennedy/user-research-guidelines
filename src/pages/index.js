@@ -1,36 +1,33 @@
 import React from "react"
+import { graphql } from "gatsby"
+
+import navData from "../../content/secondaryNavData.json"
+import Layout from "../components/Layout"
 import WillowSecondaryNav from "../components/secondaryNav"
 
 export default ({ data }) => {
-    const docs = data.markdownRemark;
-    const page = data.markdownRemark.fields.slug;
-    const navData = data.allMarkdownRemark.edges;
-
-    const navDataArray = Object.keys(navData)
-    let navItems = []
-    
-    navDataArray.map((key) => {            
-        navItems.push(navData[key].node.frontmatter)
-        return(navItems)
-    })
+    const frontmatter = data.markdownRemark.frontmatter
 
     return (
-        <main className="willow-page-content flex-grow" id="mainContent">
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-md-3">
-                        <WillowSecondaryNav 
-                            navItems={ navItems }
-                            page={ page }
-                        />
-                    </div>
-                    <div className="col-md-9">
-                        <h1>{docs.frontmatter.title}</h1>
-                        <section dangerouslySetInnerHTML={{ __html: docs.html }} />
+        <Layout>
+            <main className="willow-page-content flex-grow" id="mainContent">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-3">
+                            <WillowSecondaryNav 
+                                heading={ navData.menuName}
+                                navItems={ navData.menuItems }
+                                page={ data.markdownRemark.fields.slug }
+                            />
+                        </div>
+                        <div className="col-md-9">
+                            <h1>{frontmatter.title}</h1>
+                            <section dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                        </div>
                     </div>
                 </div>
-            </div>
-        </main>
+            </main>
+        </Layout>
     )
 }
 

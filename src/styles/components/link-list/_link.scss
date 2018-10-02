@@ -1,0 +1,15 @@
+&__link {
+    display: inline-block;
+
+    &--external {
+        &:before {
+            background-image: url(../assets/icons/share.svg);
+            background-size: cover;
+            content: "";
+            display: inline-block;
+            height: 14px;
+            margin: $space-inline-s;
+            width: 14px;
+        }
+    }
+}

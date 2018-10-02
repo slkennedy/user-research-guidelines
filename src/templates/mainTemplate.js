@@ -1,69 +1,65 @@
-import React, { Fragment } from "react"
+import React from "react"
+import { graphql } from "gatsby"
 
+import navData from "../../content/secondaryNavData.json"
+import Layout from "../components/Layout"
 import Overview from "../components/overview"
 import WillowSecondaryNav from "../components/secondaryNav"
 import LinkList from "../components/linkList"
 
 export default ({ data }) => {
-    const docs = data.markdownRemark;
-    const page = data.markdownRemark.fields.slug;
-    const navData = data.allMarkdownRemark.edges;
-    const resourceLinks = data.markdownRemark.frontmatter.resources;
-    const relatedMethods = data.markdownRemark.frontmatter.relatedMethods;
-
-    const navDataArray = Object.keys(navData)
-    let navItems = []
-    
-    navDataArray.map((key) => {            
-        navItems.push(navData[key].node.frontmatter)
-        return(navItems)
-    })
+    const frontmatter = data.markdownRemark.frontmatter
+    const resourceLinks = frontmatter.resources
+    const relatedMethods = frontmatter.relatedMethods
 
     return (
-        <main className="willow-page-content flex-grow" id="mainContent">
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-md-3">
-                        <WillowSecondaryNav 
-                            navItems={ navItems }
-                            page={ page }
-                        />
-                    </div>
-                    <div className="col-md-9">
-                        <h1>{docs.frontmatter.title}</h1>
-                        <section dangerouslySetInnerHTML={{ __html: docs.html }} />
-                        <section>{docs.frontmatter.instructions}</section>
-                        {
-                            docs.frontmatter.overview ? 
-                                <Overview overview={docs.frontmatter.overview} />
-                            : null
-                        }
-                        {
-                            relatedMethods || resourceLinks ? 
-                                <div className="related-content">
-                                    {
-                                        relatedMethods ? 
-                                            <LinkList
-                                                heading="Related Methods" 
-                                                links={relatedMethods}
-                                                prefix="/user-research-guidelines" />
-                                        : null
-                                    }
-                                    {
-                                        resourceLinks ? 
-                                            <LinkList 
-                                                heading="Resources"
-                                                links={resourceLinks} 
-                                                externalLinks="true" />
-                                        : null
-                                    }
-                                </div>
-                            : null
-                        }
+        <Layout>
+            <main className="willow-page-content flex-grow" id="mainContent">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-md-3">
+                            <WillowSecondaryNav 
+                                heading={ navData.menuName}
+                                navItems={ navData.menuItems }
+                                page={ data.markdownRemark.fields.slug }
+                            />
+                        </div>
+                        <div className="col-md-9">
+                            <h1>{frontmatter.title}</h1>
+                            <section dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+                            <section>{frontmatter.instructions}</section>
+                            {
+                                frontmatter.overview ? 
+                                    <Overview overview={frontmatter.overview} />
+                                : null
+                            }
+                            {
+                                relatedMethods || resourceLinks ? 
+                                    <div className="related-content">
+                                        {
+                                            relatedMethods ? 
+                                                <LinkList
+                                                    heading="Related Methods" 
+                                                    links={relatedMethods}
+                                                    prefix="/user-research-guidelines" />
+                                            : null
+                                        }
+                                        {
+                                            resourceLinks ? 
+                                                <LinkList 
+                                                    heading="Resources"
+                                                    links={resourceLinks} 
+                                                    externalLinks="true" />
+                                            : null
+                                        }
+                                    </div>
+                                : null
+                            }
+                        </div>
                     </div>
                 </div>
-            </div>
-        </main>            
+            </main>
+        </Layout>
     )
 }
 

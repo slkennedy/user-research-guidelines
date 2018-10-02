@@ -1,0 +1,6 @@
+&__heading {
+    @include set-text-style($text-style-heading-4);
+    color: $theme-primary;
+    display: inline-block;
+    margin: $space-inline;
+}

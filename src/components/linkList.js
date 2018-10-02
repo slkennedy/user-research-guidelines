@@ -1,8 +1,7 @@
 import React from "react"
-import Link from "gatsby-link"
+import { Link } from "gatsby"
 
 export default ({ ...props }) => {
-    console.log(props)
     return (
         <section className="link-list">
             <h1 className="link-list__heading">{props.heading}:</h1>
@@ -15,7 +14,8 @@ export default ({ ...props }) => {
                                     <a 
                                         className="link-list__link link-list__link--external"
                                         href={link.url}
-                                        target="_blank">{link.text}</a>
+                                        target="_blank"
+                                        rel="noopener noreferrer">{link.text}</a>
                                 </li>
                         )
                     }) 
@@ -24,7 +24,7 @@ export default ({ ...props }) => {
                         return (
                             <li className="link-list__item" key={index}>
                                 <Link 
-                                    className="link-list__link"
+                                    activeClassName="link-list__link"
                                     to={link.url}>{link.text}</Link>
                             </li>
                         )

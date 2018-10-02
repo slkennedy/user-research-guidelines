@@ -2,7 +2,6 @@ import React from "react"
 
 const createScore = (count) => {
     let score = []
-    let diff = 5 - count; //3
     
     for(let i = 0; i < 5; i++) {
         score.push(<span 

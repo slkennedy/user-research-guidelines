@@ -1,0 +1,12 @@
+&__score {
+    background-color: $theme-base-3;
+    border-radius: 50%;
+    display: inline-block;
+    height: 10px;
+    margin: $space-inline;
+    width: 10px;
+    
+    &--filled {
+        background-color: $theme-primary;
+    }
+}

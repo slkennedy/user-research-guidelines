@@ -1,182 +1,34 @@
-$icons-folder: "../assets/icons";
-$color-blue-light: #4981B0;
-$color-blue: #015294;
-$color-blue-dark: #19629D;
-$color-blue-darker: #024882;
+////////////////////////////////////////////////
+// Theme Variable Overrides
+////////////////////////////////////////////////
+@import "overrides/willow/theme-variable-overrides";
 
-$theme-primary: $color-blue;
-$theme-primary-2: $color-blue-dark;
-$theme-primary-3: $color-blue-light;
-$theme-primary-4: $color-blue-darker;
-
-$theme-action-primary: $color-blue;
-$theme-action-primary-2: $color-blue-dark;
-$theme-action-primary-3: $color-blue-darker;
-
-$list-style-type: disc;
-
+////////////////////////////////////////////////
+// Theme
+///////////////////////////////////////////////
 @import "../../node_modules/@unumux/theme-unum-default/styles";
 
-$grid-gutter-width: $space-l;
+////////////////////////////////////////////////
+// Willow Variable Overrides
+///////////////////////////////////////////////
+@import "overrides/willow/willow-variable-overrides";
 
-$text-style-heading-1: ( 
-    family: $font-family-primary, 
-    desktop-size: 3.58318rem, 
-    desktop-line-height: line-height($font-size-4xl), 
-    mobile-size: 3.58318rem, 
-    mobile-line-height: line-height($font-size-3xl), 
-    weight: 500
-);
+////////////////////////////////////////////////
+// Bootstrap Variable Overrides
+///////////////////////////////////////////////
+@import "overrides/bootstrap/bootstrap-variable-overrides";
 
-$text-style-heading-2: ( 
-    family: $font-family-primary, 
-    desktop-size: 2.48832rem, 
-    desktop-line-height: line-height($font-size-2xl), 
-    mobile-size: 2.48832rem, 
-    mobile-line-height: line-height($font-size-xl), 
-    weight: 300
-);
-
-$text-style-heading-3: ( 
-    family: $font-family-primary, 
-    desktop-size: 2.0736rem, 
-    desktop-line-height: line-height($font-size-xl), 
-    mobile-size: 1.728rem, 
-    mobile-line-height: line-height($font-size-l), 
-    weight: 500
-);
-
+////////////////////////////////////////////////
+// Willow
+///////////////////////////////////////////////
 @import "../../node_modules/@unumux/willow/styles";
 
-// Overrides
-// Bootstrap
-.container-fluid {
-    max-width: 1200px;
-}
+////////////////////////////////////////////////
+// Component Overrides
+////////////////////////////////////////////////
+@import "overrides/overrides";
 
-// Willow
-.willow-page-header__content {
-    display: block;
-}
-
-.willow-secondary-nav {
-    border: none;
-    margin: $space-stack;
-
-    &__heading {
-        background-color: $theme-base;
-        color: $theme-text-primary;
-        padding: $space-inset-s;
-    }
-    
-    &__link {
-        color: $theme-primary;
-        padding: $space-inset-s;
-        
-        &:visited {
-            color: $theme-primary;
-        }
-    }
-    
-    &__link--active {
-        border-color: $theme-primary;
-    }
-}
-
+////////////////////////////////////////////////
 // Custom Components
-.overview {
-    border-left: 10px solid $theme-primary;
-    padding-left: $space;
-
-    &__group {
-        margin: $space-stack-l;
-    }
-
-    &__heading {
-        @include set-text-style($text-style-heading-4);
-        color: $theme-primary;
-        display: inline-block;
-        margin: $space-inline;
-    }
-
-    &__score {
-        background-color: $theme-base-3;
-        border-radius: 50%;
-        display: inline-block;
-        height: 10px;
-        margin: $space-inline;
-        width: 10px;
-        
-        &--filled {
-            background-color: $theme-primary;
-        }
-    }
-
-    &__description {
-        margin: $space-stack-xs;
-    }
-}
-
-.related-content {
-    background-color: $theme-base-2;
-    border-radius: $component-border-radius;
-    display: flex;
-    flex-wrap: wrap;
-    margin: $space-stack-xl;
-    padding: $space-inset-squish-l;
-}
-
-.link-list {
-    @include compact;
-    
-    flex-basis: 100%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin: $space-stack;
-
-    &:nth-of-type(1) {
-        margin: $space-inline;
-    }
-    
-    @media screen and (min-width: breakpoint(sm, $grid-breakpoints)) {
-        flex-basis: 20%;
-        margin: $space-inline-xl;
-
-        &:nth-of-type(2){
-            flex-basis: 60%;
-            margin: 0;
-        }
-    }
-
-    &__heading {
-        @include set-text-style($text-style-heading-3);
-
-        font-weight: 300;
-    }
-
-    &__list {
-        list-style: none;
-        padding: 0;
-    }
-
-    &__item {
-        display: block;
-    }
-
-    &__link {
-        display: inline-block;
-    
-        &--external {
-            &:before {
-                background-image: url(../assets/icons/share.svg);
-                background-size: cover;
-                content: "";
-                display: inline-block;
-                height: 14px;
-                margin: $space-inline-s;
-                width: 14px;
-            }
-        }
-    }
-}
-
+////////////////////////////////////////////////
+@import "components/components";

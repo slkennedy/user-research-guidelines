@@ -1,0 +1,9 @@
+.overview {
+    border-left: 10px solid $theme-primary;
+    padding-left: $space;
+
+    @import "heading";
+    @import "group";
+    @import "score";
+    @import "description";
+}

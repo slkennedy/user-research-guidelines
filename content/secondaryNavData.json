@@ -1,0 +1,45 @@
+{
+    "menuName": "Methods",
+    "menuItems": [
+        {
+            "name": "A/B Test",
+            "url": "/ab-test/"
+        },
+        {
+            "name": "Affinity Diagram",
+            "url": "/affinity-diagram/"
+        },
+        {
+            "name": "Card Sort",
+            "url": "/card-sort/"
+        },
+        {
+            "name": "Empathy Map",
+            "url": "/empathy-map/"
+        },
+        {
+            "name": "Focus Group",
+            "url": "/focus-group/"
+        },
+        {
+            "name": "Interview",
+            "url": "/interview/"
+        },
+        {
+            "name": "Journey Map",
+            "url": "/journey-map/"
+        },
+        {
+            "name": "Participatory Design",
+            "url": "/participatory-design/"
+        },
+        {
+            "name": "Persona",
+            "url": "/persona/"
+        },
+        {
+            "name": "Usability Testing",
+            "url": "/usability-testing/"
+        }
+    ]
+}

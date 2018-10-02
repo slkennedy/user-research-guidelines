@@ -1,0 +1,22 @@
+.willow-page-header__content {
+    display: block;
+}
+
+.willow-secondary-nav {
+    margin: $space-stack;
+
+    &__heading {
+        padding: $space-inset-s;
+    }
+    
+    &__link {
+        padding: $space-inset-s;
+        
+        &:visited {
+        }
+    }
+    
+    &__link--active {
+        border-color: $theme-primary;
+    }
+}

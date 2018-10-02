@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
-  "license": "MIT",
+  "name": "unum-user-research-guidelines",
+  "description": "Guidelines for selecting and conducting user research for digital projects",
+  "license": "GPL-3.0",
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build --prefix-paths",
@@ -9,17 +9,18 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.46",
-    "gatsby-plugin-sass": "1.0.26"
+    "gatsby": "^2.0.7",
+    "gatsby-link": "^2.0.1",
+    "gatsby-plugin-sass": "2.0.1"
   },
   "devDependencies": {
     "@unumux/theme-unum-default": "1.0.0",
     "@unumux/willow": "1.1.1",
-    "gatsby-source-filesystem": "1.5.39",
-    "gatsby-transformer-remark": "1.7.44",
-    "gh-pages": "1.2.0",
+    "gatsby-source-filesystem": "^2.0.1",
+    "gatsby-transformer-remark": "^2.1.3",
+    "gh-pages": "2.0.0",
     "react": "16.5.0",
-    "react-dom": "16.5.0"
+    "react-dom": "16.5.0",
+    "node-sass": "4.9.3"
   }
 }
